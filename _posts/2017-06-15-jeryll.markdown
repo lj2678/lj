@@ -8,15 +8,15 @@ categories: jekyll update
 实现     使用jeryll生成一个个人博客，并发布到github
 
 步骤
-1.根据官网（http://jekyllrb.com/docs/installation/）知道需要安装Ruby,RubyGems,Gcc,Make
-  1.1首先安装gcc yum install gcc
-  1.2Ruby与RubyGems使用rvm来安装
-    1.2.1 $ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
-          $ curl -sSL https://get.rvm.io | bash -s stable
-   这两条命令结束后就会在/usr/local/下生成rvm文件夹
-   1.2.2 使用source /etc/profile.d/rvm.sh来启动rvm
-   1.2.3 rvm -v来查看版本信息
-   1.2.4 改源之类的参考（https://ruby-china.org/wiki/install_ruby_guide）我也没试过
+#1.根据官网（http://jekyllrb.com/docs/installation/）知道需要安装Ruby,RubyGems,Gcc,Make#
+ ## 1.1首先安装gcc yum install gcc##
+ ## 1.2Ruby与RubyGems使用rvm来安装##
+   ### 1.2.1 $ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3###
+        ###  $ curl -sSL https://get.rvm.io | bash -s stable###
+  ### 这两条命令结束后就会在/usr/local/下生成rvm文件夹###
+  ### 1.2.2 使用source /etc/profile.d/rvm.sh来启动rvm###
+  ### 1.2.3 rvm -v来查看版本信息###
+  ### 1.2.4 改源之类的参考（https://ruby-china.org/wiki/install_ruby_guide）我也没试过###
    1.2.5 用rvm安装Ruby环境
          rvm requirements
          rvm install 2.3.0
