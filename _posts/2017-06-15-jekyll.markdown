@@ -12,7 +12,7 @@ categories: jekyll update
  * 1.1首先安装gcc yum install gcc
  * 1.2Ruby与RubyGems使用rvm来安装
     * 1.2.1 $ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
-           * $ curl -sSL https://get.rvm.io | bash -s stable
+    * $ curl -sSL https://get.rvm.io | bash -s stable
   * 这两条命令结束后就会在/usr/local/下生成rvm文件夹
     * 1.2.2 使用source /etc/profile.d/rvm.sh来启动rvm
     * 1.2.3 rvm -v来查看版本信息
